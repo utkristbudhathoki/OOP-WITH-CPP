@@ -1,0 +1,27 @@
+/*#include<iostream>
+using namespace std;
+int main(){
+	int n,fact=1;
+	cout<<"Enter  the number:";
+	cin>>n;
+	while(n>=1){
+		fact=fact*n;
+		n = n-1;
+	}
+	cout<<"factorial of given number is:"<<fact;
+	return 0;
+}
+
+*/
+#include<iostream>
+using namespace std;
+int main(){
+	int n,fact=1;
+	cout<<"Enter the number:";
+	cin>>n;
+	for(;n>0;n=n-1){
+	fact=fact*n;
+}
+cout<<"The factorail of given number is :"<<fact;
+	return 0;
+}
